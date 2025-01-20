@@ -1,0 +1,232 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  height: 750px;
+  background-size: cover;
+  background-position: top;
+  position: relative; /* Ensure the overlay works correctly */
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6); /* Black overlay with opacity */
+  z-index: 0; /* Overlay sits behind the content */
+}
+
+.features h4 {
+  font-size: 1.25rem;
+}
+
+.footer {
+  font-size: 0.9rem;
+}
+
+.card-body {
+  text-align: center;
+}
+
+#heroTitle {
+  font-family: "Montserrat", sans-serif;
+  z-index: 2; /* Ensure text stays above the overlay */
+  position: relative; /* So that it's above the overlay */
+}
+
+.horizontalRule {
+  width: 100px;
+  background-color: red;
+  height: 5px;
+  margin-left: 0px;
+}
+
+.container {
+  position: relative;
+  z-index: 1; 
+}
+
+#heroDescription {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#brandImage {
+  margin-right: 30px;
+}
+
+#infoTitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#infoDescription {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  padding: 20px 0px;
+  line-height: 35px;
+  color: #696969;
+}
+
+.horizontalRule-2 {
+  width: 100px;
+  background-color: red;
+  height: 5px;
+}
+
+.carousel-box {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  position: relative;
+  overflow: visible;
+}
+
+/* Carousel container styling */
+.carousel-container {
+  overflow: visible;
+}
+
+/* Style for text inside the box */
+.carousel-caption {
+  color: #333;
+  text-align: left;
+  padding: 15px;
+}
+
+#typeOfClass {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#cardTitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#infoCard {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px 0px;
+  line-height: 35px;
+  color: #696969;
+}
+
+#teacherName {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 20px;
+  line-height: 35px;
+  color: #000000;
+}
+
+.teacherSubject {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #696969;
+}
+
+.horizontalRule2 {
+  width: 100px;
+  background-color: red;
+  height: 5px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#ambientText {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+#stafCard {
+  font-family: "Montserrat", sans-serif;
+}
+
+#sectionTitle {
+  font-family: "Montserrat", sans-serif;
+}
+
+#sectionContent {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #696969;
+}
+.name-list {
+  column-count: 2;
+  column-gap: 20px;
+}
+
+.name-list p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+#card2 {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4); /* Add a subtle shadow */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+}
+
+#card2:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+#cardHead{
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 35px;
+  color: #000000;
+}
+
+#cardContent{
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #000000;
+}
+
+#horizontalRuleLajmet{
+  width: 100vw;
+  background-color: red;
+  height: 10px;
+}
+
+#navTitle{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+#stafProfile{
+  border-radius: 75px;
+  zoom: 00px;
+}
+
+.creatorName{
+  text-decoration: none;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 10px;
+}
+
+.creatorName:hover{
+  text-decoration: none;
+  color: #000000;
+}

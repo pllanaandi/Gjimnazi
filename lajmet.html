@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gjimnazi 17 Shkurti</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Playfair+Display:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white px-5"
+      data-aos="fade-down"
+      id="navTitle"
+    >
+      <img
+        src="images/Screenshot 2024-10-20 105845 copy.png"
+        alt="Logo"
+        width="100px"
+        height="100px"
+        id="brandImage"
+      />
+      <a class="navbar-brand" href="#">Gjimnazi 17 Shkurti</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse p-2" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Ballina</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="stafi.html">Stafi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="klaset.html">Klaset</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="klubet.html">Klubet</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-danger" href="lajmet.html"
+              >Te fundit</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      class="text-dark d-flex align-items-center py-5"
+      style="background-image: url('images/IMG_15542-mintrt-scaled.webp')"
+      data-aos="fade-up"
+    >
+      <div class="container py-5">
+        <div class="row">
+          <div
+            class="col-md-8 offset-md-2 bg-light py-5 px-5 text-center"
+            data-aos="fade-up"
+          >
+            <h1 id="stafCard">Aktivitetet e fundit</h1>
+            <hr class="horizontalRule2" />
+            <p id="heroDescription">Siguro njohuri dhe përvoja të avancuara.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Info Section with Carousel -->
+    <div class="container info-section pt-5 pb-5" data-aos="fade-up">
+      <div class="row py-4">
+        <!-- Left Column (Text Content) -->
+        <div class="col-md-6 text-content" data-aos="fade-up">
+          <h2 id="infoTitle">Organizata SBUNKER</h2>
+          <p id="infoDescription">
+            Organizata SBUNKER në kuadër të projektit "Sfidat dhe Kundërmasat,"
+            sot u zhvillua një punëtori me temën "Paralajmërimi i Hershëm dhe
+            Veprimi i Hershëm Kundër Ideologjive Ekstremiste". Shkolla jonë u
+            përfaqësua nga drejtoresha znj.Besa Gashi Dvorani, e cila dha një
+            kontribut të rëndësishëm në diskutimet mbi masat parandaluese dhe
+            ndërgjegjësimin kundër ekstremizmit. Përmes kësaj iniciative,
+            synohet forcimi i bashkëpunimit ndërinstitucional dhe rritja e
+            vetëdijes për rëndësinë e veprimit të hershëm në mbrojtjen e
+            komuniteteve nga ndikimet e dëmshme.
+          </p>
+        </div>
+
+        <!-- Right Column (Carousel) -->
+        <div
+          class="col-md-6 d-flex justify-content-center align-items-center"
+          data-aos="fade-up"
+        >
+          <div
+            id="carouselExampleControls2"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="d-block w-100"
+                  src="images/sbunker1.jpg"
+                  alt="First slide"
+                  id=""
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="images/sbunker2.jpg"
+                  alt="Second slide"
+                />
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleControls2"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleControls2"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" data-aos="fade-up">
+      <div class="row">
+        <hr id="horizontalRuleLajmet" />
+      </div>
+    </div>
+
+    <div class="container info-section py-5" data-aos="fade-up">
+      <div class="row py-4">
+        <!-- Left Column (Text Content) -->
+        <div class="col-md-6 text-content order-2" data-aos="fade-up">
+          <h2 id="infoTitle">"Dhuna dixhitale"</h2>
+          <p id="infoDescription">
+            Shkolla jonë ishte nikoqire e sesioni informues “Rritja e
+            ndërgjegjësimit në shkolla për dimensionin dixhital të dhunës, me
+            fokus tek dhuna ndaj vajzave” , ku mori pjesë Zëvendësministri i
+            Arsimit, Shkencës, Teknologjisë dhe Inovacionit z. Arsim Ademi. Ky
+            aktivitet është pjesë e javës së “16 Ditët e Aktivizimit” kundër
+            dhunës në baza gjinore dhe kishte për qëllim informimin dhe
+            ndërgjegjësimin e nxënësve dhe mësimdhënësve për rreziqet e dhunës
+            dixhitale, veçanërisht ndaj vajzave.
+          </p>
+        </div>
+
+        <!-- Right Column (Carousel) -->
+        <div
+          class="col-md-6 d-flex justify-content-center align-items-center"
+          data-aos="fade-up"
+        >
+          <div
+            id="carouselExampleControls3"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="d-block w-100"
+                  src="images/dhunaDigjitale.jpg"
+                  alt="First slide"
+                  id=""
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="images/dhunaDigjitale3.jpg"
+                  alt="Second slide"
+                />
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleControls3"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleControls3"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" data-aos="fade-up">
+      <div class="row">
+        <hr id="horizontalRuleLajmet" />
+      </div>
+    </div>
+
+    <div class="container info-section pt-5 pb-5" data-aos="fade-up">
+      <div class="row py-4">
+        <!-- Left Column (Text Content) -->
+        <div class="col-md-6 text-content" data-aos="fade-up">
+          <h2 id="infoTitle">Profesori si vlere e qytetit</h2>
+          <p id="infoDescription">
+            Urime të përzemërta për profesor Kastriotin për këtë arritje të
+            jashtëzakonshme! Përzgjedhja e tij si person për qytetari aktive në
+            nivel komune është një nder jo vetëm për të personalisht, por edhe
+            për shkollën dhe shoqërinë që ai përfaqëson. Ky çmim është një
+            dëshmi e punës së tij të palodhur, përkushtimit ndaj komunitetit dhe
+            angazhimit për të promovuar vlera të qytetarisë aktive dhe
+            përfshirjes sociale. Ky sukses frymëzon nxënësit, kolegët dhe gjithë
+            komunitetin që të kontribuojnë më shumë për të mirën e përbashkët.
+            Përshtypjet e tilla janë një shembull i shkëlqyer për brezat e
+            ardhshëm dhe një mesazh i fortë për rëndësinë e pjesëmarrjes aktive
+            në ndërtimin e një shoqërie më të mirë.
+          </p>
+        </div>
+
+        <!-- Right Column (Carousel) -->
+        <div
+          class="col-md-6 d-flex justify-content-center align-items-center"
+          data-aos="fade-up"
+        >
+          <div
+            id="carouselExampleControls4"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="d-block w-100"
+                  src="images/qytetariAktive.jpg"
+                  alt="First slide"
+                />
+              </div>
+              <!-- <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="images/basketboll2.png"
+                  alt="Second slide"
+                />
+              </div> -->
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleControls4"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleControls4"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="text-center text-dark bg-light">
+      <div class="container">
+        <section class="mt-5">
+          <div class="row text-center d-flex justify-content-center pt-5">
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="index.html" class="text-dark">Ballina</a>
+              </h6>
+            </div>
+
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="stafi.html" class="text-dark">Stafi</a>
+              </h6>
+            </div>
+
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="klaset.html" class="text-dark">Klaset</a>
+              </h6>
+            </div>
+
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="klubet.html" class="text-dark">Klubet</a>
+              </h6>
+            </div>
+
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="lajmet.html" class="text-dark">Te Fundit</a>
+              </h6>
+            </div>
+          </div>
+        </section>
+
+        <hr class="my-5" />
+
+        <section class="mb-5">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-8">
+              <p id="teacherName">
+                Merr informacionet e fundit rreth shkolles dhe regjistrohu tek
+                ne
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="text-center mb-5">
+          <a
+            href="https://www.facebook.com/profile.php?id=100057359803391"
+            class="text-dark mx-3"
+            target="_blank"
+            rel="noopener noreferrer"
+            style="font-size: 1.5rem"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a
+            href="index.html"
+            class="text-dark mx-3"
+            target="_blank"
+            rel="noopener noreferrer"
+            style="font-size: 1.5rem"
+          >
+            <i class="fab fa-google"></i>
+          </a>
+        </section>
+      </div>
+
+      <div class="text-center p-2 pt-4 bg-danger">
+        <a class="text-white" style="font-family: Montserrat, sans-serif;" style="text-decoration: none"
+          >Copyright &#169; Gjimnazi 17 Shkurti:</a
+        >
+        <p style="font-family: Montserrat, sans-serif;">
+          Designed by
+          <a
+            class="creatorName"
+            href="https://www.linkedin.com/in/andi-pllana-06a212258/"
+            >Andi Pllana</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      // Initialize AOS
+      AOS.init({
+        duration: 1500, // Animation duration in milliseconds
+        once: true, // Whether animation should happen only once
+      });
+    </script>
+  </body>
+</html>
