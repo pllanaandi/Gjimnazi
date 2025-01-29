@@ -46,7 +46,7 @@ body {
 
 .container {
   position: relative;
-  z-index: 1; 
+  z-index: 1;
 }
 
 #heroDescription {
@@ -186,7 +186,7 @@ body {
   transform: scale(1.05); /* Slight zoom on hover */
 }
 
-#cardHead{
+#cardHead {
   font-family: "Montserrat", sans-serif;
   font-size: 35px;
   font-weight: 600;
@@ -196,37 +196,139 @@ body {
   color: #000000;
 }
 
-#cardContent{
+#cardContent {
   font-family: "Montserrat", sans-serif;
   font-size: 17px;
   font-weight: 500;
   color: #000000;
 }
 
-#horizontalRuleLajmet{
+#horizontalRuleLajmet {
   width: 100vw;
   background-color: red;
   height: 10px;
 }
 
-#navTitle{
+#navTitle {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
 
-#stafProfile{
+#stafProfile {
   border-radius: 75px;
   zoom: 00px;
 }
 
-.creatorName{
+.creatorName {
   text-decoration: none;
   color: #fff;
   font-family: "Montserrat", sans-serif;
   padding-left: 10px;
 }
 
-.creatorName:hover{
+.creatorName:hover {
   text-decoration: none;
   color: #000000;
+}
+
+@media (max-width: 600px) {
+  #brandImage {
+    width: 80px;
+    height: 80px;
+  }
+  #background-image-overlay {
+    height: 40vh;
+  }
+  #heroTitle {
+    font-size: 40px;
+    padding-left: 10px;
+  }
+  #standards {
+    padding-bottom: 50px;
+  }
+  #cardMedia {
+    margin-bottom: 20px;
+  }
+  #heroPage {
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
+    margin-right: 40px !important;
+  }
+  #directorImg {
+    margin: 0 auto !important;
+    padding: 20px !important;
+  }
+  #cardHead {
+    font-size: 30px;
+  }
+  #serviceMedia {
+    margin-bottom: 20px;
+  }
+  #classPage {
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
+    margin-right: 40px !important;
+    margin-left: 40px !important;
+  }
+  #professorMedia {
+    margin: 0 auto !important;
+    padding: 20px !important;
+  }
+  #sectionTitle {
+    padding-top: 15px;
+  }
+  #kabinetMedia {
+    align-items: center !important; /* Aligns content to the left */
+    text-align: center !important; /* Ensures text is left-aligned */
+  }
+  #clubMedia {
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
+    margin-right: 40px !important;
+    margin-left: 40px !important;
+  }
+  #newsMedia {
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 20px !important;
+    margin-right: 40px !important;
+    margin-left: 40px !important;
+  }
+  .newsTitle{
+    font-size: 30px !important;
+  }
+  .newsTitle2{
+    font-size: 30px !important;
+    padding-top: 20px !important;
+  }
+ #navTitle {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding-top: 10px !important; /* Adjust top padding */
+    padding-bottom: 10px !important; /* Adjust bottom padding */
+  }
+
+  #brandImage {
+    width: 60px !important; /* Adjust size for mobile */
+    height: auto !important;
+  }
+
+  .navbar-brand {
+    font-size: 1rem !important; /* Reduce font size for mobile */
+    margin-left: 10px !important;
+  }
+
+  #buttonNavMedia {
+    margin-left: auto !important;
+    transform: scale(0.8); /* Shrinks the button */
+    padding: 4px 6px !important; /* Reduces padding */
+  }
+  .navbar-toggler-icon {
+    width: 20px !important; /* Adjusts icon size */
+    height: 20px !important;
+  }
 }
