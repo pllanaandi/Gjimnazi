@@ -23,6 +23,12 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css"
     />
+    <!-- jQuery (Required for Bootstrap 4) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Bootstrap Bundle (Includes Popper.js) -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
   </head>
   <body>
     <!-- Navbar -->
@@ -76,7 +82,7 @@
       style="background-image: url('images/IMG_15542-mintrt-scaled.webp')"
       data-aos="fade-up"
     >
-      <div class="container py-5" data-aos="fade-up">
+      <div class="container py-5" data-aos="fade-up" id="heroPage">
         <div class="row">
           <div class="col-md-8 offset-2 bg-light py-5 px-5">
             <h1 class="text-center" id="stafCard">Stafi yne</h1>
@@ -93,6 +99,7 @@
       <div class="row">
         <div
           class="col-md-4 offset-4 d-flex flex-column justify-content-center align-items-center py-3"
+          id="directorImg"
         >
           <img
             src="images/Daco_5511364.png"
@@ -330,7 +337,7 @@
         Qellimi dhe misioni i shkolles sone eshte qe te kemi:
       </h2>
       <div class="row g-4 mt-5">
-        <div class="col-md-4">
+        <div class="col-md-4" id="serviceMedia">
           <div class="card border-danger" id="card2">
             <img
               class="mx-auto my-5"
@@ -344,7 +351,7 @@
             </h5>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" id="serviceMedia">
           <div class="card border-danger" id="card2">
             <img
               class="mx-auto my-5"
@@ -450,12 +457,15 @@
       </div>
 
       <div class="text-center p-2 pt-4 bg-danger">
-        <a class="text-white" style="font-family: Montserrat, sans-serif;" style="text-decoration: none"
+        <a
+          class="text-white"
+          style="font-family: Montserrat, sans-serif"
+          style="text-decoration: none"
           >Copyright &#169; Gjimnazi 17 Shkurti:</a
         >
-        <p style="font-family: Montserrat, sans-serif;">
+        <p style="font-family: Montserrat, sans-serif">
           Designed by
-          <a 
+          <a
             class="creatorName"
             href="https://www.linkedin.com/in/andi-pllana-06a212258/"
             >Andi Pllana</a
